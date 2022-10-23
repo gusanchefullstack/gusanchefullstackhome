@@ -1,0 +1,27 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  --palette1-color-1: #0D1B2A;
+  --palette1-color-2: #1B263B;
+  --palette1-color-3: #415A77;
+  --palette1-color-4: #778DA9;
+  --palette1-color-5: #E0E1DD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+body {
+  background-color: var(--palette1-color-5);
+  color: var(--palette1-color-1);
+}
+header {
+  background-color: var(--palette1-color-4);
+  color: var(--palette1-color-5);
+}
+footer {
+  background-color: var(--palette1-color-2);
+  color: var(--palette1-color-5);
+}
