@@ -73,6 +73,9 @@ header {
   justify-content: center;
   align-items: center;
 }
+.section-title {
+  color: var(--palette1-color-1);
+}
 .aboutme-info-container img {
   width: 50%;
 }
