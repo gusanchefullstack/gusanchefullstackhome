@@ -68,17 +68,49 @@ header {
 .navbar-item:hover {
   color: var(--palette1-color-1);
 }
+
+.section-title {
+  background-color: var(--palette1-color-2);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1rem;
+}
+
+.section-title i,
+h2 {
+  color: var(--palette1-color-5);
+}
+
 .aboutme-info-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-top: 1.22rem;
+  padding-bottom: 1.2rem;
 }
+
+.aboutme-left-content {
+  display: block;
+  max-width: 30rem;
+  flex-basis: 40%;
+}
+
+.aboutme-right-content {
+  flex-basis: 50%;
+  line-height: 1.9rem;
+}
+
 .section-title {
   color: var(--palette1-color-1);
 }
+
 .aboutme-info-container img {
   width: 50%;
 }
+
 footer {
   background-color: var(--palette1-color-3);
   color: var(--palette1-color-5);
