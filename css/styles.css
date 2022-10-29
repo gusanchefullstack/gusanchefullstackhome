@@ -69,13 +69,17 @@ header {
   color: var(--palette1-color-1);
 }
 
+.main-section {
+  
+}
+
 .section-title {
   background-color: var(--palette1-color-2);
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  padding: 1rem 4.2rem;
+  padding: 1rem 4rem;
 }
 
 .section-title i,
@@ -88,7 +92,7 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
-  padding-top: 1.22rem;
+  padding-top: 1.2rem;
   padding-bottom: 1.2rem;
 }
 
@@ -103,31 +107,32 @@ h2 {
   line-height: 1.9rem;
 }
 
-.section-title {
-  color: var(--palette1-color-1);
-}
+
 
 .aboutme-info-container img {
   width: 50%;
 }
+
 .projects-container {
-  padding-top: 1.22rem;
+  padding-top: 1.2rem;
   padding-bottom: 1.2rem;
   padding-left: 4rem;
   padding-right: 4rem;
 }
+
 .stack-container {
   display: grid;
   justify-content: center;
   align-content: center;
   row-gap: 2rem;
   column-gap: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-flow: row;
   padding-left: 4rem;
   padding-right: 4rem;
 }
+
 .stack-layer {
   justify-self: center;
   border: 1px solid var(--palette1-color-3);
@@ -136,6 +141,7 @@ h2 {
   text-align: center;
   width: 14rem;
 }
+
 .stack-layer-title {
   background-color: var(--palette1-color-3);
   color: var(--palette1-color-5);
@@ -143,6 +149,7 @@ h2 {
   font-weight: 400;
   padding: 0.5rem;
 }
+
 .stack-layer-tools {
   background-color: whitesmoke;
   display: flex;
@@ -151,12 +158,32 @@ h2 {
   gap: 1rem;
   padding: 1rem;
 }
+
 .stack-layer-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 1rem;
 }
+
+.resources-container {
+  padding: 2rem 4rem;
+}
+
+.resources-container p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.resource-list li i {
+  margin: 0 0.5rem;
+}
+
+.resource-list a {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 footer {
   background-color: var(--palette1-color-3);
   color: var(--palette1-color-5);
