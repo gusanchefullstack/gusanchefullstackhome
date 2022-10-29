@@ -75,7 +75,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  padding: 1rem 1rem;
+  padding: 1rem 4.2rem;
 }
 
 .section-title i,
@@ -134,13 +134,14 @@ h2 {
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
-  width: 16rem;
+  width: 14rem;
 }
 .stack-layer-title {
   background-color: var(--palette1-color-3);
   color: var(--palette1-color-5);
-  font-size: large;
+  font-size: medium;
   font-weight: 400;
+  padding: 0.5rem;
 }
 .stack-layer-tools {
   background-color: whitesmoke;
